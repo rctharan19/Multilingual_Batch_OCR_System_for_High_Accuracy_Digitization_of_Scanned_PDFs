@@ -106,9 +106,8 @@ https://github.com/oschwartz10612/poppler-windows/releases
 Place all scanned PDF files inside the input/ folder.
 input/
 
- ├── file1.pdf
- 
- ├── file2.pdf
+  ├── file1.pdf
+  ├── file2.pdf
 
 **Step 4: Run OCR**
 ```bash
@@ -119,9 +118,8 @@ OCR-processed PDFs will be available in the output/ folder.
 
 output/
 
- ├── file1.pdf
- 
- ├── file2.pdf
+  ├── file1.pdf
+  ├── file2.pdf
  
 ---
 
