@@ -35,11 +35,11 @@ better text accuracy.
 
 ## ⚙️ System Workflow
 Scanned PDF
-↓
+→
 Poppler (PDF → Image conversion)
-↓
+→
 Tesseract OCR (Tamil / English)
-↓
+→
 Searchable PDF Output
 
 
@@ -105,7 +105,9 @@ https://github.com/oschwartz10612/poppler-windows/releases
 **Step 3: Add input PDFs**
 Place all scanned PDF files inside the input/ folder.
 input/
+
  ├── file1.pdf
+ 
  ├── file2.pdf
 
 **Step 4: Run OCR**
@@ -116,7 +118,9 @@ python tamil_ocr_task.py
 OCR-processed PDFs will be available in the output/ folder.
 
 output/
+
  ├── file1.pdf
+ 
  ├── file2.pdf
  
 ---
